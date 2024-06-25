@@ -1,0 +1,42 @@
+body {
+    background: url("flowers/IMG_20231231_112728.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:#fff;
+    background-color:#333;
+}
+.clockbox {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #0F52BA;
+    opacity: 0.8;
+    width: 600px;
+    height: 300px;
+    z-index: 1000;
+}
+.clock {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ADD8E6;
+    font-size: 60px;
+    font-family: 'Monotype Corsiva';
+    letter-spacing: 7px;
+    z-index: 1001;
+}
+.decoration {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+.toggle-deco {
+  position: absolute;
+  width: 80%;
+  bottom: 0%;
+  left: 10%;
+}
