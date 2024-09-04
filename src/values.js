@@ -66,7 +66,8 @@ const butterflies = [
 ]
 
 // const timeEnd = 1714176300000; // 27 April 2024
-const timeEnd = 1720810500000; // 12 July 2024
+// const timeEnd = 1720810500000; // 12 July 2024
+const timeEnd = 1734377400000; // 16 December 2024
 const oneSecond = 1000; // milliseconds
 const oneMinute = 60 * oneSecond;
 const oneHour = 60 * oneMinute;
